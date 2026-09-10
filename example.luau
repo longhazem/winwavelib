@@ -1,10 +1,10 @@
 -- Standalone remote example. The environment must provide loadstring and game:HttpGet.
 local WinWare = loadstring(game:HttpGet(
-	"https://raw.githubusercontent.com/wxnvxa/winware-lib/main/winware.luau"
+	"https://raw.githubusercontent.com/longhazem/winwavelib/refs/heads/main/winware.luau"
 ))()
 
 local window = WinWare:CreateWindow({
-	Name = "WINWARE",
+	Name = "TK",
 	Content = "",
 	Size = WinWare.Scales.Default,
 	Keybind = "Insert",
