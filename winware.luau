@@ -184,7 +184,7 @@ WinWare.GlobalLogo = "rbxassetid://0";
 WinWare.ImageColorMapping = "rbxassetid://4155801252";
 
 do
-	local winwareLink = "https://raw.githubusercontent.com/wxnvxa/winware-lib/main/assets/%s";
+	local winwareLink = "https://raw.githubusercontent.com/longhazem/winwavelib/main/assets/%s";
 	local dir = 'WinWareAssets';
 
 	if not isfolder(dir) then
